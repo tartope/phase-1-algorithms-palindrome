@@ -27,8 +27,8 @@ function isPalindrome(word) {
   5. return now joined reversed word
 
   1. make isPalindrome(word) function
-  2. if word === palindrome, return true
-  3. if word !== palindrome, return false
+  2. if word === reverse(word) function, return true
+  3. if word !== reverse(word) function, return false
 */
 
 /*
@@ -39,12 +39,12 @@ function isPalindrome(word) {
 if (require.main === module) {
   // add your own custom tests in here
   console.log("Expecting: true");
-  console.log("=>", isPalindrome("cat"));
+  console.log("=>", isPalindrome("mom"));
 
   console.log("");
 
   console.log("Expecting: false");
-  console.log("=>", isPalindrome("mom"));
+  console.log("=>", isPalindrome("robot"));
 }
 
 module.exports = isPalindrome;
