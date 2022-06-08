@@ -6,6 +6,7 @@ function reverse(word) {
   // return reversedWord
   return word.split('').reverse().join('');
 }
+console.log(reverse("tunisia"))
 
 function isPalindrome(word) {
   // Write your algorithm here
@@ -48,7 +49,6 @@ if (require.main === module) {
 }
 
 module.exports = isPalindrome;
-
 
 // a function isPalindrome takes one arguement (string)
 // if palindrome then return true, else then return false
