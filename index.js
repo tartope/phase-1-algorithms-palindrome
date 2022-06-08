@@ -17,6 +17,8 @@ function isPalindrome(word) {
   }else{
     return false
   }
+
+  // or just -->  return word === reversedWord  <-- refactors the if/else statement
 }
 
 /* 
